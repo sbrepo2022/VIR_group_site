@@ -1,0 +1,67 @@
+.project-card {
+    position: relative;
+    border-radius: 0.75rem;
+    height: 23rem;
+    overflow: hidden;
+}
+
+.project-card > div {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 5rem;
+
+    text-align: center;
+    font-weight: 600;
+    color: var(--white);
+
+    background: radial-gradient(69.85% 69.85% at 78.46% 30.15%, rgba(55, 109, 190, 0.55) 0%, rgba(118, 215, 246, 0.55) 100%);
+    backdrop-filter: blur(4px);
+
+    transition: height 0.2s ease;
+}
+
+.project-card:hover > div {
+    height: 100%;
+}
+
+.project-card-wrapper {
+    margin: 0;
+}
+
+@media (min-width: 1200px) {
+    .project-card-wrapper {
+        margin: 0 2rem 0 4.5rem;
+    }
+}
+
+.project-image-big {
+    position: relative;
+    border-radius: 0.75rem;
+    height: 25.5rem;
+    overflow: hidden;
+}
+
+.project-image-small {
+    position: relative;
+    border-radius: 0.75rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.text-path {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.works-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.text-works-elem {
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1.25rem;
+}

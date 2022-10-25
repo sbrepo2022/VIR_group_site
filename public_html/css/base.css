@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --stroke_button: radial-gradient(69.85% 69.85% at 78.46% 30.15%, #376DBE 0%, #76D7F6 100%);
+    --button_gradient: radial-gradient(220.38% 288.03% at 134.54% -188.03%, #376DBE 0%, #76D7F6 100%);
+    --white: #F1F1F1;
+    --blue: #018DE0;
+    --black: #1E1B2E;
+    --dark_blue: #1F236B;
+    --grey: #C4C4C4;
+}
+
+:root[theme="light"] {
+    --bg_color: var(--white);
+    --text_color: var(--black);
+    --text_color_invert: var(--white);
+    --text_color_active: var(--blue);
+}
+
+:root[theme="dark"] {
+    --bg_color: var(--black);
+    --text_color: var(--white);
+    --text_color_invert: var(--white);
+    --text_color_active: var(--blue);
+}

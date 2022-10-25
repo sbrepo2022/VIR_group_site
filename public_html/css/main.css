@@ -1,0 +1,23 @@
+.slogan {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.3rem;
+}
+
+@media (min-width: 992px) {
+    .slogan {
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+.text-description {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+.img-main {
+    min-height: 20rem;
+}

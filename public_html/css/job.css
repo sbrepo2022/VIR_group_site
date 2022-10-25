@@ -1,0 +1,66 @@
+.job-card {
+    background: radial-gradient(69.85% 69.85% at 78.46% 30.15%, rgba(55, 109, 190, 0.55) 0%, rgba(118, 215, 246, 0.55) 100%);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.job-card ul {
+    margin-bottom: 1.5rem;
+}
+
+.job-card li {
+    list-style-type: disc;
+
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
+}
+
+.job-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.job-subtitle {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.job-card button {
+    padding: 0.6rem 4rem 0.6rem 4rem;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    border-radius: 3rem;
+
+    background: var(--white);
+    color: var(--text_color_active);
+    border: solid 2px var(--text_color_active);
+
+    transition: all 0.2s ease;
+}
+
+.job-card button:hover {
+    background: var(--text_color_active);
+    color: var(--white);
+    border: solid 2px var(--white);
+}
+
+.job-small-text {
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: var(--grey);
+}
+
+.job-small-link {
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: var(--grey);
+    text-decoration: underline;
+}
+
+.job-small-link:hover {
+    text-decoration: none;
+}
